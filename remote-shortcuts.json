@@ -82,6 +82,25 @@
       "description": "Log the caffeine content of your drinks, into the Health app.",
       "permissions": ["Health", "Notifications"],
       "troubleshooting": "Ensure the shortcut is installed before you run it on the ADHD Lifesavers App"
+    },
+    {
+      "id": "brain_dump",
+      "name": "Brain Dump",
+      "iCloudLink": "https://www.icloud.com/shortcuts/qrs678tuv901wxy234zab567cde890f",
+      "categoryID": "executiveDysfunction",
+      "description": "Quickly capture all your thoughts, ideas, and tasks into organized notes to clear your mind and reduce mental load.",
+      "permissions": ["Notes", "Reminders", "Siri"],
+      "troubleshooting": "If notes aren't being created, ensure Shortcuts has permission to access your Notes app."
+    },
+    {
+      "id": "medication_reminder",
+      "name": "Medication Reminder",
+      "iCloudLink": "https://www.icloud.com/shortcuts/abc123def456ghi789jkl012mno345p",
+      "categoryID": "selfCare",
+      "description": "Never miss your medication again with this customizable reminder that tracks your medication schedule and sends persistent notifications.",
+      "permissions": ["Reminders", "Notifications", "Health"],
+      "troubleshooting": "If reminders aren't appearing, check that Shortcuts has permission to access Reminders and that notifications are enabled."
     }
+
   ]
 }
