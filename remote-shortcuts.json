@@ -1,11 +1,11 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "lastUpdated": "2025-03-23T18:00:00Z",
   "shortcuts": [
     {
       "id": "time_announcer",
       "name": "Time Announcer",
-      "iCloudLink": "https://www.icloud.com/shortcuts/e0fe339c318e452a845fc48f14587db8",
+      "iCloudLink": "https://www.icloud.com/shortcuts/83b35e149cc24373a710a38cd6ad569a",
       "categoryID": "timeBlindness",
       "description": "Announce time out loud",
       "permissions": ["Speech", "Siri", "Notifications"],
