@@ -1,11 +1,11 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.0",
   "lastUpdated": "2025-03-23T18:00:00Z",
   "shortcuts": [
     {
       "id": "time_announcer",
       "name": "Time Announcer",
-      "iCloudLink": "https://www.icloud.com/shortcuts/83b35e149cc24373a710a38cd6ad569a",
+      "iCloudLink": "https://www.icloud.com/shortcuts/e0fe339c318e452a845fc48f14587db8",
       "categoryID": "timeBlindness",
       "description": "Announce time out loud",
       "permissions": ["Speech", "Siri", "Notifications"],
@@ -82,25 +82,16 @@
       "description": "Log the caffeine content of your drinks, into the Health app.",
       "permissions": ["Health", "Notifications"],
       "troubleshooting": "Ensure the shortcut is installed before you run it on the ADHD Lifesavers App"
-    },
-    {
-      "id": "brain_dump",
-      "name": "Brain Dump",
-      "iCloudLink": "https://www.icloud.com/shortcuts/qrs678tuv901wxy234zab567cde890f",
-      "categoryID": "executiveDysfunction",
-      "description": "Quickly capture all your thoughts, ideas, and tasks into organized notes to clear your mind and reduce mental load.",
-      "permissions": ["Notes", "Reminders", "Siri"],
-      "troubleshooting": "If notes aren't being created, ensure Shortcuts has permission to access your Notes app."
-    },
-    {
-      "id": "medication_reminder",
-      "name": "Medication Reminder",
-      "iCloudLink": "https://www.icloud.com/shortcuts/abc123def456ghi789jkl012mno345p",
-      "categoryID": "selfCare",
-      "description": "Never miss your medication again with this customizable reminder that tracks your medication schedule and sends persistent notifications.",
-      "permissions": ["Reminders", "Notifications", "Health"],
-      "troubleshooting": "If reminders aren't appearing, check that Shortcuts has permission to access Reminders and that notifications are enabled."
     }
-
+    ,
+    {
+      "id": "log_meds",
+      "name": "Log Meds",
+      "iCloudLink": "https://www.icloud.com/shortcuts/901bbeb3c9174b4ba6c0409703c661234",
+      "categoryID": "selfCare",
+      "description": "Log the caffeine content of your drinks, into the Health app.",
+      "permissions": ["Health", "Notifications"],
+      "troubleshooting": "Ensure the shortcut is installed before you run it on the ADHD Lifesavers App"
+    }
   ]
 }
