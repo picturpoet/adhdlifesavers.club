@@ -1,0 +1,87 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-03-23T18:00:00Z",
+  "shortcuts": [
+    {
+      "id": "time_announcer",
+      "name": "Time Announcer",
+      "iCloudLink": "https://www.icloud.com/shortcuts/e0fe339c318e452a845fc48f14587db8",
+      "categoryID": "timeBlindness",
+      "description": "Announce time out loud",
+      "permissions": ["Speech", "Siri", "Notifications"],
+      "troubleshooting": "If voice doesn't work, check that Speech is enabled in Settings > Shortcuts"
+    },
+    {
+      "id": "task_breaker",
+      "name": "Task Breaker",
+      "iCloudLink": "https://www.icloud.com/shortcuts/48620521c96540beb28b9d6ed9204903",
+      "categoryID": "executiveDysfunction",
+      "description": "Shatter daunting tasks into bite-sized chunks with Task Breaker. You need to have ChatGPT enabled to get to run this shortcut.",
+      "permissions": ["Internet", "Actions", "ChatGPT API"],
+      "troubleshooting": "Make sure you have ChatGPT installed and open. Also, if tasks aren't being broken down effectively, try being more specific in your task description."
+    },
+    {
+      "id": "start_pomodoro",
+      "name": "Start Pomodoro",
+      "iCloudLink": "https://www.icloud.com/shortcuts/caac11ce5ede44f6a1de763ae5252044",
+      "categoryID": "timeBlindness",
+      "description": "Focus for 25 minutes, then take a 5 minute break",
+      "permissions": ["Notifications", "Actions", "Timer"],
+      "troubleshooting": "If notifications aren't appearing, check your notification settings for the Shortcuts app."
+    },
+    {
+      "id": "self_care_hour",
+      "name": "Self Care Hour",
+      "iCloudLink": "https://www.icloud.com/shortcuts/da1f6637c9704dbbb8347337a24690a5",
+      "categoryID": "selfCare",
+      "description": "Block out time to take care of yourself",
+      "permissions": ["Calendar","Actions", "Notifications"],
+      "troubleshooting": "If calendar events aren't being created, check that Shortcuts has permission to access your Calendar."
+    },
+    {
+      "id": "reflect_on_the_day",
+      "name": "Reflect on the Day",
+      "iCloudLink": "https://www.icloud.com/shortcuts/c0164a8a66bf4229b048d2151d98ee78",
+      "categoryID": "emotionalDysregulation",
+      "description": "Journal about what you accomplished today",
+      "permissions": ["Notes"],
+      "troubleshooting": "If notes aren't being created, ensure Shortcuts has permission to access your Notes app."
+    },
+    {
+      "id": "focus_sounds",
+      "name": "Focus Sounds",
+      "iCloudLink": "https://www.icloud.com/shortcuts/3a9ca3d1085d421f8b4fb6e166bcd7da",
+      "categoryID": "hyperfocus",
+      "description": "Play ambient sounds that help you focus",
+      "permissions": ["Music", "Media"],
+      "troubleshooting": "If sounds aren't playing, check your volume settings and ensure you have the required sound files or streaming service access."
+    },
+    {
+      "id": "log_water",
+      "name": "Log Water",
+      "iCloudLink": "https://www.icloud.com/shortcuts/f9308aeb43b041babfaa6fc3326d7f6d",
+      "categoryID": "selfCare",
+      "description": "Log your water intake in Health app",
+      "permissions": ["Health"],
+      "troubleshooting": "If data isn't being logged, make sure Shortcuts has permission to write to the Health app in Settings > Privacy > Health."
+    },
+    {
+      "id": "unmissable_reminder",
+      "name": "Unmissable Reminder",
+      "iCloudLink": "https://www.icloud.com/shortcuts/7de1256f4ab948d2b9bbe781eb335caa",
+      "categoryID": "timeBlindness",
+      "description": "Create a reminder you can't ignore",
+      "permissions": ["Reminders", "Notifications"],
+      "troubleshooting": "If reminders aren't appearing, check that Shortcuts has permission to access Reminders and that notifications are enabled."
+    },
+    {
+      "id": "log_caffeine",
+      "name": "Log Caffeine",
+      "iCloudLink": "https://www.icloud.com/shortcuts/901bbeb3c9174b4ba6c0409703c66863",
+      "categoryID": "selfCare",
+      "description": "Log the caffeine content of your drinks, into the Health app.",
+      "permissions": ["Health", "Notifications"],
+      "troubleshooting": "Ensure the shortcut is installed before you run it on the ADHD Lifesavers App"
+    }
+  ]
+}
