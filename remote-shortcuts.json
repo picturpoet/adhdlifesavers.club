@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.1.0",
   "lastUpdated": "2025-03-23T18:00:00Z",
   "shortcuts": [
     {
@@ -9,7 +9,8 @@
       "categoryID": "timeBlindness",
       "description": "Announce time out loud",
       "permissions": ["Speech", "Siri", "Notifications"],
-      "troubleshooting": "If voice doesn't work, check that Speech is enabled in Settings > Shortcuts"
+      "troubleshooting": "If voice doesn't work, check that Speech is enabled in Settings > Shortcuts",
+      "isPremium": false
     },
     {
       "id": "task_breaker",
@@ -18,7 +19,8 @@
       "categoryID": "executiveDysfunction",
       "description": "Shatter daunting tasks into bite-sized chunks with Task Breaker. You need to have ChatGPT enabled to get to run this shortcut.",
       "permissions": ["Internet", "Actions", "ChatGPT API"],
-      "troubleshooting": "Make sure you have ChatGPT installed and open. Also, if tasks aren't being broken down effectively, try being more specific in your task description."
+      "troubleshooting": "Make sure you have ChatGPT installed and open. Also, if tasks aren't being broken down effectively, try being more specific in your task description.",
+      "isPremium": true
     },
     {
       "id": "start_pomodoro",
@@ -27,7 +29,8 @@
       "categoryID": "timeBlindness",
       "description": "Focus for 25 minutes, then take a 5 minute break",
       "permissions": ["Notifications", "Actions", "Timer"],
-      "troubleshooting": "If notifications aren't appearing, check your notification settings for the Shortcuts app."
+      "troubleshooting": "If notifications aren't appearing, check your notification settings for the Shortcuts app.",
+      "isPremium": false
     },
     {
       "id": "self_care_hour",
@@ -36,7 +39,8 @@
       "categoryID": "selfCare",
       "description": "Block out time to take care of yourself",
       "permissions": ["Calendar","Actions", "Notifications"],
-      "troubleshooting": "If calendar events aren't being created, check that Shortcuts has permission to access your Calendar."
+      "troubleshooting": "If calendar events aren't being created, check that Shortcuts has permission to access your Calendar.",
+      "isPremium": false
     },
     {
       "id": "reflect_on_the_day",
@@ -45,7 +49,8 @@
       "categoryID": "emotionalDysregulation",
       "description": "Journal about what you accomplished today",
       "permissions": ["Notes"],
-      "troubleshooting": "If notes aren't being created, ensure Shortcuts has permission to access your Notes app."
+      "troubleshooting": "If notes aren't being created, ensure Shortcuts has permission to access your Notes app.",
+      "isPremium": true
     },
     {
       "id": "focus_sounds",
@@ -54,7 +59,8 @@
       "categoryID": "hyperfocus",
       "description": "Play ambient sounds that help you focus",
       "permissions": ["Music", "Media"],
-      "troubleshooting": "If sounds aren't playing, check your volume settings and ensure you have the required sound files or streaming service access."
+      "troubleshooting": "If sounds aren't playing, check your volume settings and ensure you have the required sound files or streaming service access.",
+      "isPremium": true
     },
     {
       "id": "log_water",
@@ -63,7 +69,8 @@
       "categoryID": "selfCare",
       "description": "Log your water intake in Health app",
       "permissions": ["Health"],
-      "troubleshooting": "If data isn't being logged, make sure Shortcuts has permission to write to the Health app in Settings > Privacy > Health."
+      "troubleshooting": "If data isn't being logged, make sure Shortcuts has permission to write to the Health app in Settings > Privacy > Health.",
+      "isPremium": false
     },
     {
       "id": "unmissable_reminder",
@@ -72,7 +79,8 @@
       "categoryID": "timeBlindness",
       "description": "Create a reminder you can't ignore",
       "permissions": ["Reminders", "Notifications"],
-      "troubleshooting": "If reminders aren't appearing, check that Shortcuts has permission to access Reminders and that notifications are enabled."
+      "troubleshooting": "If reminders aren't appearing, check that Shortcuts has permission to access Reminders and that notifications are enabled.",
+      "isPremium": true
     },
     {
       "id": "log_caffeine",
@@ -81,8 +89,8 @@
       "categoryID": "selfCare",
       "description": "Log the caffeine content of your drinks, into the Health app.",
       "permissions": ["Health", "Notifications"],
-      "troubleshooting": "Ensure the shortcut is installed before you run it on the ADHD Lifesavers App"
+      "troubleshooting": "Ensure the shortcut is installed before you run it on the ADHD Lifesavers App",
+      "isPremium": true
     }
-
   ]
 }
