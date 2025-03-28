@@ -60,7 +60,7 @@
       "description": "Play ambient sounds that help you focus",
       "permissions": ["Music", "Media"],
       "troubleshooting": "If sounds aren't playing, check your volume settings and ensure you have the required sound files or streaming service access.",
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "log_water",
@@ -90,7 +90,17 @@
       "description": "Log the caffeine content of your drinks, into the Health app.",
       "permissions": ["Health", "Notifications"],
       "troubleshooting": "Ensure the shortcut is installed before you run it on the ADHD Lifesavers App",
-      "isPremium": true
+      "isPremium": false
+    },
+    {
+      "id": "rage_handler",
+      "name": "Rage Handler",
+      "iCloudLink": "https://www.icloud.com/shortcuts/3b61bf7fbacc4ef1bc45a99ae02ef08d",
+      "categoryID": "rejectionSensitivity",
+      "description": "Grounding and emotional support when feeling overwhelmed by rejection or criticism.",
+      "permissions": ["Health", "Notifications", "Media Library", "Haptics"],
+      "troubleshooting": "Ensure the shortcut is installed and configured correctly before use.",
+      "isPremium": false
     }
   ]
 }
